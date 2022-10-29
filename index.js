@@ -1,5 +1,5 @@
 // Create new task
-function newTask(title, description) {
+let newTask = function(title, description) {
 
   // Create a task object
   const task = {
@@ -19,7 +19,7 @@ function newTask(title, description) {
   };
 
   return task;
-}
+};
 
 
 
